@@ -23,7 +23,10 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv}\usepackage[]{graphicx}\usepackage[]{color}
+\documentclass[12pt,a4paper,sans]{moderncv}
+\usepackage[]{graphicx}
+\usepackage[]{color}
+
 %% maxwidth is the original width if it is less than linewidth
 %% otherwise use linewidth (to make sure the graphics do not exceed the margin)
 \makeatletter
@@ -36,17 +39,17 @@
 }
 \makeatother
 
-\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
-\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
-\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
-\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
-\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
-\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
-\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
-\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
-\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
-\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
-\let\hlipl\hlkwb
+% \definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+% \newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+% \newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+% \newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+% \newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+% \newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+% \newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+% \newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+% \newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+% \newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+% \let\hlipl\hlkwb
 
 \usepackage{framed}
 \makeatletter
@@ -79,10 +82,11 @@
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
-\usepackage[scale=0.8]{geometry} % Reduce document margins
+\usepackage[vscale=0.825, hscale=0.8]{geometry} % Reduce document margins
 \usepackage[utf8]{inputenc}
+% \usepackage{hyperref}
 
-\input{to_modify/basic_info.tex}
+\input{contenido/0_basic_info}
 
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 
@@ -90,12 +94,14 @@
 	
 \makecvtitle % Print the CV title
 
-\input{to_modify/basic_info.tex}
-\input{to_modify/education.tex}
-\input{to_modify/work_experience.tex}
+\input{contenido/0_basic_info}
+\input{contenido/1_resumen}
+\input{contenido/2_education}
+\input{contenido/3_work_experience}
+\input{contenido/4_courses}
+\input{contenido/5_skills_languages}
+
 % \input{to_modify/awards.tex}
 % \input{to_modify/publications.tex}
-\input{to_modify/courses.tex}
-\input{to_modify/skills_languages.tex}
 
 \end{document}
