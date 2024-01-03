@@ -2,7 +2,7 @@
 
 Desarrollo de mi Curriculum Vitae (CV) con LaTex en Overleaf y almacenado en GitHub para su consecuente mantenimiento.
 
-- Cesar Vilca [CV aquí](CV%20Cesar%20Vilca.pdf.pdf).
+- Cesar Vilca [CV aquí](CV%20Cesar%20Vilca.pdf).
 
 ### Recursos usados
 
