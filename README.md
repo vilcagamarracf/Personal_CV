@@ -2,7 +2,7 @@
 
 Curriculum Vitae (CV) desarrollado en Overleaf con el lenguaje Latex.
 
-- Cesar Vilca [CV aquí](CV%20Cesar%20Vilca.pdf).
+- Cesar Vilca [CV aquí](CV_CESARVILCA.pdf).
 
 ### Recursos usados
 
